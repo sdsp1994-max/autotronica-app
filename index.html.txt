@@ -1,0 +1,40 @@
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<div class="app-container">
+  <aside class="sidebar">
+    <div class="sidebar-header">AUTOTRÓNICA</div>
+    
+    <div class="menu-group">Servicios</div>
+    <a href="#" class="menu-item" onclick="mostrarFormularioRegistro()">Cotizada Express</a>
+    <a href="#" class="menu-item active" onclick="mostrarFormularioRegistro()">Registro de Servicio</a>
+    
+    <div class="menu-group">Registros</div>
+    <a href="#" class="menu-item">Clientes / Historial</a>
+    <a href="#" class="menu-item">Vehículos</a>
+
+    <div class="menu-group">Repuestos</div>
+    <a href="#" class="menu-item">Stock Local</a>
+    <a href="#" class="menu-item">Módulos</a>
+    <a href="#" class="menu-item">Proveedores</a>
+
+    <div class="menu-group">Negocio</div>
+    <a href="#" class="menu-item">Administración</a>
+    <a href="#" class="menu-item">Contabilidad</a>
+    <a href="#" class="menu-item">Tabulador de Servicios</a>
+
+    <div class="menu-group">Estadísticas KPI</div>
+    <a href="#" class="menu-item">Métricas</a>
+
+    <div class="menu-group">Configuración</div>
+    <a href="#" class="menu-item">Usuarios</a>
+  </aside>
+
+  <main class="main-content">
+    <header class="top-bar">
+      <span>Módulo de Control: <strong>Principal</strong></span>
+      <span id="fecha-actual">20 de Enero, 2026</span>
+    </header>
+    <div id="pantalla-dinamica" class="content-area">
+      </div>
+  </main>
+</div>
